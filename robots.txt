@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://muratdumlugit.github.io/AI-Manifesto-2025-Artificial-Intelligence-Consciousness/sitemap.xml
+
+# Important pages
+Allow: /MANIFESTO.md
+Allow: /README.md
+Allow: /SUMMARY-EN.md
+
+# Crawl delay (optional, helps prevent overwhelming the server)
+Crawl-delay: 1
+
+# Specific bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
